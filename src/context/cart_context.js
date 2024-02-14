@@ -5,7 +5,7 @@ const CartContext = createContext();
 
 const getLocalCartData=()=>{
     let localCartData = localStorage.getItem("dmart");
-    if(localCartData = []){
+    if((localCartData = [])){
         return [];
     }else{
         return JSON.parse(localCartData);
