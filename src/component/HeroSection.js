@@ -12,9 +12,14 @@ const HeroSection = ({myData}) => {
             <div className='hero-section-data'>
                 <p className='intro-data'>Welcome to</p>
                 <h1>{name}</h1>
-                <p>DMart is a one-stop supermarket chain that aims to offer customers a wide range of basic home and personal products under one roof. 
-                    Each DMart store stocks home utility products - including food, toiletries, beauty products, garments, kitchenware, bed and bath linen, home appliances and more - available at competitive prices that our customers appreciate.
-                    Our core objective is to offer customers good products at great value.
+                <p>Digital Mart is a ecommerce website specializing in selling various types of electronics. 
+                As technology advances, more and more ecommerce website are popping up with the latest gadgets to offer their customers.
+                 From smartphones and laptops to audio equipment and smart home devices, 
+                 Digital Mart cater to consumers seeking the latest technological innovations and solutions. 
+                 Digital Mart provide a convenient platform for customers to explore, compare, 
+                 and purchase electronic products, online. Whether you’re looking for cutting-edge gadgets or
+                  reliable everyday devices,
+                  Digital Mart are the go-to destination for tech enthusiasts!
                 </p>
                 <NavLink>
                     <Button>Shop now</Button>
@@ -22,7 +27,7 @@ const HeroSection = ({myData}) => {
             </div>
             <div className='hero-section-image'>
                 <figure>
-                    <img src="images/hero.jpg" 
+                    <img src="images/hero2.png" 
                     alt="hero-section" 
                     className='img-style'
                     />
